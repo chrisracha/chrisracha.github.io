@@ -346,6 +346,7 @@ aside {
   flex: 0.5;
   background: #295e44;
   text-align: center;
+  padding: 10px;
 }
 main a {
   text-decoration: none;
@@ -377,10 +378,21 @@ article img {
   object-fit: cover;
   height: 300px
 }
+.forms {
+  margin: 50px 0 20px 50px; 
+  font-size: 40px; 
+  color: #7f191b;
+}
+iframe#gmap_canvas {
+  height: 500px;
+}
 @media (max-width: 600px) {
   section {
     -webkit-flex-direction: column;
     flex-direction: column;
+  }
+  .forms {
+    margin: 0;
   }
   .hrBody {
     display: none;
@@ -389,6 +401,12 @@ article img {
     height: 300px;
     min-width: 100%;
 }
+  article {
+    margin: 0 20px;
+  }
+  iframe#gmap_canvas {
+    height: 250px;
+  }
 }
 table {
   width: 100%;
@@ -402,6 +420,36 @@ th {
 tr:nth-child(even) {
   background-color: #dbdbdb;
   }
+.news-container {
+  margin: 10px;
+}
+.news-container h4 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  margin: 5px;
+}
+.news-container p {
+  color: #c7c7c7;
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+.news-container img {
+  width: 100%;
+  border: 5px solid #7f191b;
+  object-fit: cover;
+  height: 50%;
+}
+@media (max-width: 600px) {
+  .news-container p {
+    font-size: small;
+  }
+  .news-container h4 {
+    font-size: large;
+  }
+}
 /* Footer */
 footer {
   background-color: #7f191b;
