@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'avenir-roman';
+    src: url(fonts/Avenir-Roman.ttf) format('truetype');
+}
+.org-chart, .org-chart p {
+    text-align: center;
+    font-family: 'avenir-roman', sans-serif;
+}
+.org-chart .director {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 25px auto;
+    text-align: center;
+    font-family: arial;
+    max-width: 300px;
+}
+.org-chart .admin-aide {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 25px auto;
+    text-align: center;
+    font-family: arial;
+    max-width: 250px;
+}
+.org-chart .section-head {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 25px 25px;
+    text-align: center;
+    font-family: arial;
+    width: 250px;
+    display: inline-block;
+    overflow: hidden;
+}
+.org-chart .director img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    text-align: center;
+    padding: 20px;
+}
+.org-chart .admin-aide img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    text-align: center;
+    padding: 20px;
+}
+.org-chart .section-head img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    text-align: center;
+    padding: 20px;
+}
+.org-chart h2 {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .org-chart .director img {
+        min-width: 50px;
+        min-height: 50px;
+    }
+    .org-chart .admin-aide img {
+        min-width: 50px;
+        min-height: 50px;
+    }
+    .org-chart .section-head img {
+        min-width: 50px;
+        min-height: 50px;
+    }
+}
