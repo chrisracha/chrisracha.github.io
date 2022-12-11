@@ -180,7 +180,7 @@
   width: 2px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .carousel-item-2 {
     width: calc(var(--carousel-item-width) * 1.5);
     height: calc(var(--carousel-item-height) * 1.5);
