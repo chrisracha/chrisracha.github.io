@@ -186,7 +186,6 @@ p {
  }
   .nav a, button {
     line-height: normal;
-     font-size: 12px;
       margin: 0;
  }
   .nav a:not(:first-child) {
@@ -228,7 +227,7 @@ p {
   .nav.responsive .sec-label {
       display: block;
       color: #e99521;
-      font-size: 10px;
+      font-size: 15px;
  }
   .nav.responsive {
      position: relative;
