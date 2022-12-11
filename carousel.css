@@ -7,7 +7,7 @@
 /* carousel styles */
 .carousel {
   --carousel-height: 600px;
-  --carousel-width: 90%;
+  --carousel-width: 80%;
   --carousel-item-height: 200px;
   --carousel-item-width: auto;
   width: 100%;

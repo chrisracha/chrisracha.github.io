@@ -3,16 +3,16 @@
   src: url(fonts/palatino.woff) format('woff');
 }
 @font-face {
-  font-family: 'Montserrat';
-  src: url(fonts/montserrat.woff) format('woff');
+  font-family: 'avenir-roman';
+  src: url(fonts/Avenir-Roman.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'Montserrat Bold';
-  src: url(fonts/mont-eb.woff) format('woff');
+  font-family: 'avenir-black';
+  src: url(fonts/Avenir-Black.otf) format('opentype');
 }
 @font-face {
-  font-family: 'Gotham';
-  src: url(fonts/gotham.woff) format('woff');
+  font-family: 'helvetica-black';
+  src: url(fonts/HelveticaNeueCyr-Black.woff) format('woff');
 }
 #logohead {
   height: auto;
@@ -33,25 +33,29 @@ html {
     scroll-behavior: smooth;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-family: 'avenir-roman', sans-serif;
+  font-size: 16px;
   color:rgb(0, 0, 0);
   margin: 0px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 p, h1, h2 {
   padding: 10px;
   margin: 5px 0 5px 0;
 }
+#responsive_header {
+  font-weight: 400;
+}
 h1 {
   font-size: 2em;
-  font-family:'Montserrat', sans-serif;
+  font-family:'avenir-roman', sans-serif;
   margin: 5px 0px 0 5px;
   color: #7f191b;
   padding: 5px 30px 0;
 }
 h2 {
-  font-family: 'Gotham', sans-serif;
+  font-family: 'avenir-black', sans-serif;
   font-size:6vw;
   margin: 0px 30px;
   padding: 0;
@@ -118,10 +122,9 @@ p {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
   line-height: 3;
-  font-family: 'Montserrat';
-  text-transform: uppercase;
+  font-family: 'avenir-roman';
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -151,7 +154,7 @@ p {
   color: white;
   display: block;
   text-align: left;
-  font-size: 12px;
+  font-size: 15px;
   text-align: left;
   line-height: normal;
 }
@@ -202,7 +205,7 @@ p {
   .nav a.icon {
       float: right;
       display: block;
-      font-size: 17px;
+      font-size: 12px;
  }
   .nav a.seal {
       cursor: default;
@@ -210,12 +213,21 @@ p {
       display: none;
   }
  }
+  .nav i {
+    line-height: 2;
+  }
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
 @media screen and (max-width: 600px) {
   .nav.responsive .sec-label {
       display: block;
       color: #e99521;
       font-size: 10px;
-      text-transform: uppercase;
  }
   .nav.responsive {
      position: relative;
@@ -352,7 +364,6 @@ main a {
   text-decoration: none;
   color: #ffffff;
   transition-duration: 0.5s;
-  font-weight: bold;
   font-size: 16px;
 }
 main article a {
@@ -369,7 +380,7 @@ main a:hover {
   color: #e99521;
 }
 h3 {
-  font-family: 'Gotham';
+  font-family: 'avenir-black';
   color: #e99521;
   font-size: 40px;
 }
@@ -425,7 +436,7 @@ tr:nth-child(even) {
 }
 .news-container h4 {
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'avenir-roman', sans-serif;
   font-size: 30px;
   margin: 5px;
 }
@@ -487,7 +498,7 @@ footer p.desc {
 }
 footer h3 {
   font-size: 30px;
-  font-family: 'Gotham', sans-serif;
+  font-family: 'avenir-black', sans-serif;
 }
 @media screen and (max-width: 600px) {
   footer p, h3 {
