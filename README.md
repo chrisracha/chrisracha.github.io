@@ -1,5 +1,7 @@
 # UP Mindanao OSA Website
 
+![OSA Website Snapshot](https://github.com/chrisracha/osa-website/blob/main/snapshot.png)
+
 > The very first web development project as UP students, created with Jamze Recla and Venmark Reyno for the Office of Student Affairs.
 
 This repository contains the **very first web development project by UP Mindanao students**, developed for the Office of Student Affairs (OSA).
